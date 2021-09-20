@@ -29,9 +29,10 @@ function checkLucky(sum,luckyNumber)
 {
     if(sum%luckyNumber==0)
     {
-        console.log("your birthday is lucky 😘");
+        messageDisplay.innerText ="your birthday is lucky 😘"
     }
+    
     else{
-        console.log("your birthday is not lucky 😣");
+        messageDisplay.innerText = "your birthday is not lucky 😣"
     }
 }
